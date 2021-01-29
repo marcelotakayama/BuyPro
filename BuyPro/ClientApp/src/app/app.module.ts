@@ -38,6 +38,9 @@ import { ProductListComponent } from './components/product-list/product-list.com
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'produtos', component: ProdutosComponent },
       { path: 'usuarios', component: UsuariosComponent },
+      { path: 'products', component: ProductListComponent },
+      { path: 'products/:id', component: ProductDetailsComponent },
+      { path: 'create', component: ProductCreateComponent },
     ])
   ],
   providers: [],
