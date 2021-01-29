@@ -11,6 +11,9 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ProdutosComponent } from './produtos/produtos.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { ProductCreateComponent } from './components/product-create/product-create.component';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
     CounterComponent,
     FetchDataComponent,
     ProdutosComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    ProductCreateComponent,
+    ProductDetailsComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -38,4 +44,4 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-//teste
+//teste2
