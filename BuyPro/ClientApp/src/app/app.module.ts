@@ -30,6 +30,8 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'produtos', component: ProdutosComponent },
+      { path: 'usuarios', component: UsuariosComponent },
     ])
   ],
   providers: [],
